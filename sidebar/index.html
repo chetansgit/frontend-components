@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar expanded">
+        <div class="sidebar-header">
+            <button class="toggle-btn"><i class="fas fa-bars"></i></button>
+            <h3 class="app-name">Developer Updates</h3>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" data-tooltip="Home"><i class="fas fa-home"></i><span class="nav-label">Home</span></a>
+                </li>
+                <li>
+                    <a href="#" data-tooltip="About"><i class="fas fa-user"></i><span class="nav-label">About</span></a>
+                </li>
+                <li>
+                    <a href="#" data-tooltip="Projects"><i class="fas fa-folder"></i><span
+                            class="nav-label">Projects</span></a>
+                </li>
+                <li>
+                    <a href="#" data-tooltip="Contact"><i class="fas fa-envelope"></i><span
+                            class="nav-label">Contact</span></a>
+                </li>
+                <li>
+                    <a href="#" data-tooltip="Settings"><i class="fas fa-cog"></i><span
+                            class="nav-label">Settings</span></a>
+                </li>
+                <li>
+                    <a href="#" data-tooltip="Logout"><i class="fas fa-sign-out-alt"></i><span
+                            class="nav-label">Logout</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <button class="show-sidebar-btn"><i class="fas fa-bars"></i></button>
+        <h1>Best places for Full-stack Web Developers</h1>
+        <p>Are you looking for Front-end Developer Job? If yes, <a
+                href="https://www.developerupdates.com/shop/front-end-developer-job-interview-kit?utm_source=source_code">Click
+                here</a> to get Front-end Interview Kit</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
